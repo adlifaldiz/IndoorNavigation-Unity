@@ -279,6 +279,11 @@ PrefabInstance:
       propertyPath: m_CullTransparentMesh
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2816083231942048067, guid: cdd48c7d59651a34081a00d7408a1d6a,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3843142440866582837, guid: cdd48c7d59651a34081a00d7408a1d6a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cdd48c7d59651a34081a00d7408a1d6a, type: 3}
@@ -814,23 +819,23 @@ MonoBehaviour:
   - {fileID: 1366086142}
   - {fileID: 1105677471}
   kamars:
-  - judul: Kamar 1
-    penjelasan: ini Kamar 1
+  - judul: Burangrang Cafe
+    penjelasan: Ini Burangrang Cafe
+    image: {fileID: 21300000, guid: 4a6966b17ab85405c9b6fa713c593ea8, type: 3}
+  - judul: Camping Ground
+    penjelasan: Ini Camping Ground
+    image: {fileID: 21300000, guid: 476200a56e35c493e8583a12b626d9d8, type: 3}
+  - judul: Kampung Layang
+    penjelasan: Ini Kampung Layang
+    image: {fileID: 21300000, guid: b5e69f16e3a2b43b49661b4ca26cb392, type: 3}
+  - judul: Lutung Kasarung
+    penjelasan: Ini Lutung Kasarung
+    image: {fileID: 21300000, guid: 4733c48e413264d1691830be5823e03e, type: 3}
+  - judul: Pasar Khatulistiwa
+    penjelasan: Ini Pasar Khatulistiwa
     image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
-  - judul: Kamar 2
-    penjelasan: ini Kamar 2
-    image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
-  - judul: Kamar 3
-    penjelasan: ini Kamar 3
-    image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
-  - judul: Kamar 4
-    penjelasan: ini Kamar 4
-    image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
-  - judul: Kamar 5
-    penjelasan: ini Kamar 5
-    image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
-  - judul: Kamar 6
-    penjelasan: ini Kamar 6
+  - judul: Saung Purbasari
+    penjelasan: Ini Saung Purbasari
     image: {fileID: 21300000, guid: eb70dcbcefe0e894babd503ab293d1df, type: 3}
   InfoKamar: {fileID: 688828676}
   MainMenu: {fileID: 313371701}
@@ -3460,7 +3465,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1698186452
 Transform:
   m_ObjectHideFlags: 0
@@ -3959,7 +3964,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: KAMAR
+  m_Text: Destinasi
 --- !u!222 &1831427764
 CanvasRenderer:
   m_ObjectHideFlags: 0
